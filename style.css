@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Merriweather;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(120deg,rgb(33, 226, 33),yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background: white;
+    border-radius: 5%;
+    box-shadow: 0px 0px 8px black;
+}
+.container h2{
+    background:linear-gradient(to left,rgb(33, 226, 33),yellow);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.container input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid rgb(33, 226, 33);
+    border-radius: 5px;
+}
+.container img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container button{
+    width: 100%;
+    padding: 8px;
+    background:linear-gradient(120deg,rgb(33, 226, 33),yellow);
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
